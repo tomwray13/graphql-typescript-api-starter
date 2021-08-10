@@ -5,5 +5,9 @@
   "main": "src/index.ts",
   "scripts": {},
   "author": "Tom Ray",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "typescript": "^4.3.5"
+  }
 }
