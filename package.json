@@ -1,0 +1,9 @@
+{
+  "name": "graphql-typescript-api-starter",
+  "version": "1.0.0",
+  "description": "A repo with some solid defaults for starting an Express GraphQL API",
+  "main": "src/index.ts",
+  "scripts": {},
+  "author": "Tom Ray",
+  "license": "ISC"
+}
