@@ -4,13 +4,16 @@
   "description": "A repo with some solid defaults for starting an Express GraphQL API",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
   },
   "author": "Tom Ray",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.4.13",
     "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
   },
