@@ -4,10 +4,11 @@ This is a starter repo for GraphQL TypeScript backends. If you want to learn how
 
 This starter uses the following stack:
 
-- Express Server
+- Express
 - Apollo Server
 - Prisma
 - Docker
+- TypeScript
 - Postgres
 - Heroku
 
