@@ -14,7 +14,7 @@ This starter uses the following stack:
 
 ## Initial set up
 
-Clone the repository to your local machine in a new directory:
+You can either press the Green Button **Use this template** in the top right in Github, or you can use `git clone`:
 
 ```shell
 git clone https://github.com/tomwray13/graphql-typescript-api-starter.git <YOUR_DIRECTORY_NAME>
@@ -29,7 +29,7 @@ git branch -M main
 git push -u origin main
 ```
 
-Then install the local package dependencies:
+Once you have your own repository set up, install the local package dependencies:
 
 ```shell
 npm install
