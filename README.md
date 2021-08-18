@@ -100,7 +100,7 @@ To access the data in the database, you'll need to make use of Prisma Client.
 You just need to uncomment this line in the `index.ts` file:
 
 ```ts
-// import { prisma } from "../prisma/client";
+// import { prisma } from "./prisma/client";
 ```
 
 And then use Prisma in your resolvers to access the database. For example:
@@ -114,7 +114,7 @@ const resolvers = {
     boards: () => {
       return prisma.board.findMany()
     },
-    board: (parent, args) => {
+    board: (parent, args: any) => {
       return prisma.board.findUnique({
         where: {
           id: Number(args.id)
