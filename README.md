@@ -1,6 +1,6 @@
 # GraphQL TypeScript API Starter
 
-This is a starter repo for GraphQL TypeScript backends. If you want to learn how this starter was built from scratch, take a look at the [accompanying detailed blog post](https://tomray.dev/graphql-server-setup).
+This is a starter repo for GraphQL TypeScript backends. If you want to learn how this starter was built from scratch, take a look at the [accompanying detailed blog post](https://tomray.dev/setup-and-deploy-graphql-server).
 
 This starter uses the following stack:
 
@@ -137,4 +137,4 @@ Then go to the **Settings** tab and add an ENV variable in the Config Vars secti
 
 Finally, go back to the **Deploy** tab and press the Deploy Branch button.
 
-More detailed step-by-step help is detailed in [the blog post](https://tomray.dev/graphql-server-setup).
+More detailed step-by-step help is detailed in [the blog post](https://tomray.dev/setup-and-deploy-graphql-server).
