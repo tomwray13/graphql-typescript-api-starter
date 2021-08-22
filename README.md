@@ -95,6 +95,16 @@ npm run migrate
 
 This will prompt you to give a name for the migration.
 
+### NOTE:
+
+When running `npm run migrate`, if you see the error
+
+```
+Error: P1000: Authentication failed against database server at `localhost`, the provided database credentials for `test-user` are not valid.
+```
+
+check if you are already running a Postgres server instance on your machine with the default port also given in this tutorial (5432). If so, you will need to stop the machine instance of Postgres for the credentials to successfully work.
+
 To access the data in the database, you'll need to make use of Prisma Client.
 
 You just need to uncomment this line in the `index.ts` file:
